@@ -1,0 +1,33 @@
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    background: url("../images/background.jpg") top center no-repeat;
+}
+
+.btn-download {
+    width: 50%;
+}
+
+.logo {
+    width: 50%;
+}
+
+.download {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.regis {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    align-items: flex-end;
+}
+
+a#facebook {
+    text-align: center;
+    height: 32.5%;
+}
