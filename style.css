@@ -5,7 +5,7 @@ img {
 
 .container {
     width: 100%;
-    background: url("./images/background.jpg") top center no-repeat;
+    background: url("./images/background.jpg") top center;
 }
 
 .btn-download {
@@ -13,7 +13,7 @@ img {
 }
 
 .logo {
-    width: 50%;
+    width: 80%;
 }
 
 .download {
@@ -30,14 +30,4 @@ img {
 a#facebook {
     text-align: center;
     height: 32.5%;
-}
-
-@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
-    .logo {
-        width: 100%;
-    }
-}
-
-.logo {
-    width: 100%;
 }
