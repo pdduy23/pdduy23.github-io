@@ -31,3 +31,33 @@ a#facebook {
     text-align: center;
     height: 32.5%;
 }
+
+
+/* iphone X , XS, 11 Pro, 12 Mini */
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {}
+
+
+/* iphone 12, 12 Pro */
+
+@media only screen and (min-device-width: 390px) and (max-device-height: 844px) and (-webkit-device-pixel-ratio: 3) {}
+
+
+/* iphone XR, 11 */
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+    .col-xs-6 {
+        width: 50%;
+        height: 50%;
+    }
+}
+
+
+/* iphone XS Max, 11 Pro Max */
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (-webkit-device-pixel-ratio: 3) {}
+
+
+/* iphone 12 Pro Max */
+
+@media only screen and (min-device-width: 428px) and (max-device-height: 926px) and (-webkit-device-pixel-ratio: 3) {}
